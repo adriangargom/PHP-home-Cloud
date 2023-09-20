@@ -14,16 +14,16 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 
 # Deployment Instructions
 ## Windows
-'''
+```
 1. Download XAMPP
 2. Download the source Code and move it into the xampp folder
   - path => C://xampp/htdocs
 
 3. Run the XAMPP Server
 4. Enjoy the application
-'''
+```
 ## Linux
-'''
+```
 1. Download Apache2 and PHP
 - sudo apt install apache2 php
 
@@ -36,7 +36,7 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 - sudo systemctl restart apache2
 
 5. Enjoy the application
-'''
+```
 
 # Application Settings ⚙
 The application config file is found in the folder "settings", you can open an edit the file with your desire parameters
