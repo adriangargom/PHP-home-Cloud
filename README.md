@@ -28,7 +28,7 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 ```
 
 1. Download Apache2 and PHP
-- sudo apt install apache2 php
+  - sudo apt install apache2 php
 
 2. Download the source code and move it into the "/var/www/html" folder
 3. Give the necessary permissions to the following folders
@@ -36,7 +36,7 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 - sudo chmod -R 777 data/users.json
 
 4. Reload the Apache Server
-- sudo systemctl restart apache2
+  - sudo systemctl restart apache2
 
 5. Enjoy the application
 
