@@ -1,0 +1,5 @@
+{
+    "maxUsers" : 5,
+    "maxUploadSizeMB" : 20,
+    "sessionInactivityTime" : 300
+}

@@ -1,0 +1,249 @@
+
+*{
+    -webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+
+    background : #8a2387;
+    background : -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+    background : linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+
+
+
+/* Header */
+
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 50% 35%;
+    background-color: rgba(22, 22, 22, 0.500);
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    margin-left: 5%;
+}
+
+header div{
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.header_buttons{
+    width: 100%; 
+    height:100%; 
+    font-size: 1vw;
+}
+
+/*Section*/
+section{
+    width: 100%;
+    height: 100%;
+    max-height: 2000%;
+    margin-top: 10%;
+}
+
+section div{
+
+    background-color:rgba(255, 255, 255, 0.3);
+    margin-bottom: 5%;
+    width: 80%;
+    height: auto;
+    max-height: 2000%;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+/* Folder Container and folder instances */
+
+    .add_folders{
+
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        background-color: rgba(22, 22, 22, 0.35);
+    }
+
+    .create_folder_form{
+
+        display: grid;
+        grid-template-columns: 50% 23% 23%;
+        grid-gap: 2%;
+    }
+
+    .exit_folder_form{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 5%;
+    }
+
+
+    .folder_container{
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #ffffff00;
+        padding: 0%;
+        margin: 0%;
+
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 3%;
+
+    }
+
+    .folder_instance{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 55% 20% 20%;
+        grid-gap: 2%;
+        border-radius: 5px;
+        background-color: rgba(22, 22, 22, 0.35);
+    }
+
+    .folder_instance form{
+
+        background-color: #ffffff00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .folder_instance form button{
+
+        font-size: 1vw;
+    }
+
+    .folder_instance div{
+
+        background-color: #ffffff00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+    }
+
+    .folder_instance div a{
+        font-size: 1.5vw;
+    }
+
+/* File Container and file instances */
+    .file_container{
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #ffffff00;
+        padding: 0%;
+        margin: 0%;
+
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 3%;
+    }
+
+    .file_instance{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        border-radius: 5px;
+        background-color: rgba(22, 22, 22, 0.35);
+    }
+
+    .file_instance form{
+
+        background-color: #ffffff00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file_instance div{
+
+        background-color: #ffffff00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+    }
+
+    .file_instance div a{
+        font-size: 1vw;
+    }
+
+/*Media screen modifications*/
+@media (max-width: 900px){
+
+    header{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 40% 35%;
+        background-color: rgba(22, 22, 22, 0.35);
+        color: #fff;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        margin-top: 25%;
+    }
+
+    /*Folders*/
+    .folder_container{
+        width: 85%;
+        height: 100%;
+        grid-template-columns: 100%;
+        margin-bottom: 5%;
+    }
+
+    .folder_instance div a{
+        font-size: 2vw;
+    }
+
+    /*Files*/
+    .file_container{
+        width: 85%;
+        height: 100%;
+        margin-left: 1%;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5%;
+        margin-bottom: 5%;
+    }
+
+    .file_instance div a{
+        font-size: 2vw;
+    }
+}
