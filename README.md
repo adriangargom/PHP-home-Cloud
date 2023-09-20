@@ -13,7 +13,7 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 - Apache2
 
 # Deployment Instructions
-## Windows
+## Windows🖥
 
 1. Download XAMPP
 2. Download the source Code and move it into the xampp folder
@@ -22,7 +22,7 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 3. Run the XAMPP Server
 4. Enjoy the application
 
-## Linux
+## Linux🖥
 
 
 1. Download Apache2 and PHP
