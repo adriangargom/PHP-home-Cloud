@@ -17,9 +17,8 @@ developed with the following tecnologies (PHP, HTML, CSS and JS)
 
 1. Download XAMPP
 2. Download the source Code and move it into the xampp folder
-```
-path => C://xampp/htdocs
-```
+    path => C://xampp/htdocs
+
 3. Run the XAMPP Server
 4. Enjoy the application
 
