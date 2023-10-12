@@ -1,7 +1,7 @@
 # Explanation 🖥
 The following project consists of a simple web application for uploading, 
-downloading and managing files bia web explorer, this application has been 
-developed with the following tecnologies (PHP, HTML, CSS and JS)
+downloading and managing files via web explorer, this application has been 
+developed with the following technologies (PHP, HTML, CSS and JS)
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)]()
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
@@ -43,7 +43,7 @@ sudo systemctl restart apache2
 
 
 # Application Settings ⚙
-The application config file is found in the folder "settings", you can open an edit the file with your desire parameters
+The application config file is found in the folder "settings", you can open and edit the file with your desire parameters
 
 Configurable parameters :
 
@@ -51,5 +51,4 @@ Configurable parameters :
 
 - maxUploadSizeMB => Set's the max upload size for the application in MB
 
-- session_inactivity_time => Sets the session inactivity time of a logged in User in seconds
-
+- session_inactivity_time => Sets the session inactivity time of a logged-in User in seconds
